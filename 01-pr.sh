@@ -44,7 +44,7 @@
 
 userID=$(id -u)
 
-if [$userID -ne 0 ]
+if [ $userID -ne 0 ]
 then 
 echo "you need to be run this script as a root user"
 else
