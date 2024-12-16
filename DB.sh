@@ -11,7 +11,7 @@ Validate(){
         exit 1
     else
         echo "$2... Success"
-}
+        }
 
 
 if [ $USER -ne 0 ]
