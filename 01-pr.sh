@@ -43,6 +43,15 @@
 # fi
 
 userID=$(id -u)
+Validate(){
+    if [ $1 -ne 0 ]
+    then 
+        echo "$2... Failed"
+        exit 1
+    else
+        echo "$2... Success"
+    fi
+}
 
 if [ $userID -ne 0 ]
 then 
@@ -53,9 +62,11 @@ fi
 
 dnf install mysqlll -y
 
-if [ $? -ne 0 ]
-then 
-    echo "INstallation is failed"
-else
-    echo "Installation is success"
-fi
+# if [ $? -ne 0 ]
+# then 
+#     echo "INstallation is failed"
+# else
+#     echo "Installation is success"
+# fi
+
+Validate $?  "INSTALLING SQL"
