@@ -40,4 +40,5 @@ then
     Validate S? "Mysql root password setup"
 else
 echo "already password was setup"
+fi
 
