@@ -42,7 +42,7 @@
 #     echo "lower number"
 # fi
 
-userID=id -u
+userID=$(id -u)
 
 if [$userID -ne 0 ]
 then 
