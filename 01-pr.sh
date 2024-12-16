@@ -16,11 +16,16 @@
 # echo "user is : $UNAME and PASSWORD is : $PASSWD"
 
 
-echo "Enter user name"
-read UNAME
-echo "Enter 2nd mane"
-read UNAME2
+# echo "Enter user name"
+# read UNAME
+# echo "Enter 2nd mane"
+# read UNAME2
 
-echo "$UNAME:: Hi $UNAME2, how are you"
-echo "$UNAME2:: Hello $UNAME, I am ok thank you, what about you"
+# echo "$UNAME:: Hi $UNAME2, how are you"
+# echo "$UNAME2:: Hello $UNAME, I am ok thank you, what about you"
+
+Class=("KK" "DD" "RK")
+echo "2nd name of class is ${Class[1]}"
+echo "1st name of class is ${Class[0]}"
+echo "last name of classis ${Class[2]}"
 
