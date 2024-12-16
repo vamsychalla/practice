@@ -33,12 +33,20 @@
 # echo "NOVP: $#"
 # echo "$0"
 
-NUMBER=$1
+# NUMBER=$1
 
-if [ $NUMBER -gt 10 ]
+# if [ $NUMBER -gt 10 ]
+# then 
+#     echo "greater than "
+# else
+#     echo "lower number"
+# fi
+
+userID=id -u
+
+if [$userID -ne 0 ]
 then 
-    echo "greater than "
+echo "you need to be run this script as a root user"
 else
-    echo "lower number"
+echo "Great, Script is going to ececute"
 fi
-
