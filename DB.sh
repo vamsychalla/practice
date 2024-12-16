@@ -3,7 +3,6 @@
 USER=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 SCEIPT_NAME=$(echo $0 | cut -d "," -f1)
-LOGFILE=/tmp/$SCEIPT_NAME-$TIMESTAMP.log
 Validate(){
     if [ $1 -ne 0 ]
     then 
@@ -12,6 +11,10 @@ Validate(){
     else
         echo "$2... Success"
         }
+
+
+LOGFILE=/tmp/$SCEIPT_NAME-$TIMESTAMP.log
+
 
 
 # if [ $USER -ne 0 ]
