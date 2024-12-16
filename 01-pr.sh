@@ -60,7 +60,7 @@ else
 echo "Great, Script is going to ececute"
 fi
 
-dnf install mysqlll -y
+dnf install mysql -y
 
 # if [ $? -ne 0 ]
 # then 
