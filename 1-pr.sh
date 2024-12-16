@@ -17,3 +17,4 @@ PERSON2=$2
 
 echo "Hi $PERSON1:: How are you $PERSON2"
 echo "$PERSON2:: HELLO $PERSON1 jaffa "
+echo "enter user name"
