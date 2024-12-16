@@ -12,8 +12,8 @@
 # echo "$PERSON4:: HOW ARE YOU $PERSON2, $PERSON3"
 # echo "$PERSON1:: You are forgot me $PERSON4"
 
-PERSON1=$
-PERSON2=$
+PERSON1=$1
+PERSON2=$2
 
 echo "Hi $PERSON1:: How are you $PERSON2"
 echo "$PERSON2:: HELLO $PERSON1 jaffa "
