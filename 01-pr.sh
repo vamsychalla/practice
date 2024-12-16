@@ -28,4 +28,8 @@ Class=("KK" "DD" "RK")
 echo "2nd name of class is ${Class[1]}"
 echo "1st name of class is ${Class[0]}"
 echo "last name of classis ${Class[2]}"
+echo "all: ${Class[@}"
+echo "NOVP: $#"
+echo "$0"
+
 
