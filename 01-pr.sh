@@ -50,3 +50,12 @@ echo "you need to be run this script as a root user"
 else
 echo "Great, Script is going to ececute"
 fi
+
+dnf install mysqlll -y
+
+if [ $? -ne 0 ]
+then 
+    echo "INstallation is failed"
+else
+    echo "Installation is success"
+fi
