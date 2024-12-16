@@ -6,8 +6,11 @@
 # echo "$PERSON1:: HI $PERSON2, HOW ARE YOU"
 # echo "$PERSON2:: HELLOW $PERSON1, I am ok thanks what about you"
 
-PERSON1=$1
-PERSON2=$2
+echo "Enter user name"
+read UNAME
 
-echo "$PERSON1"
-echo "$PERSON2"
+echo "Enter password"
+
+read PASSWD
+
+echo "user is : $UNAME and PASSWORD is : $PASSWD"
