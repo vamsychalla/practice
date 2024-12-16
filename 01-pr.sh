@@ -11,6 +11,6 @@ read UNAME
 
 echo "Enter password"
 
-read PASSWD
+read -s PASSWD
 
 echo "user is : $UNAME and PASSWORD is : $PASSWD"
