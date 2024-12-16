@@ -23,14 +23,22 @@
 
 # echo "$UNAME:: Hi $UNAME2, how are you"
 # echo "$UNAME2:: Hello $UNAME, I am ok thank you, what about you"
-set -e
+# set -e
 
-Class=("KK" "DD" "RK")
-echo "2nd name of class is ${Class[1]}"
-echo "1st name of class is ${Class[0]}"
-echo "last name of classis ${Class[2]}"
-echo "all: ${Class[@]}"
-echo "NOVP: $#"
-echo "$0"
+# Class=("KK" "DD" "RK")
+# echo "2nd name of class is ${Class[1]}"
+# echo "1st name of class is ${Class[0]}"
+# echo "last name of classis ${Class[2]}"
+# echo "all: ${Class[@]}"
+# echo "NOVP: $#"
+# echo "$0"
 
+NUMBER=1
+
+if [ $NUMBER -gt 10 ]
+then 
+    echo "greater than "
+else
+    echo "lower number"
+fi
 
