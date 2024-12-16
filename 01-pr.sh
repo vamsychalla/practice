@@ -23,6 +23,7 @@
 
 # echo "$UNAME:: Hi $UNAME2, how are you"
 # echo "$UNAME2:: Hello $UNAME, I am ok thank you, what about you"
+set -e
 
 Class=("KK" "DD" "RK")
 echo "2nd name of class is ${Class[1]}"
